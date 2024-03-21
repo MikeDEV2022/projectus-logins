@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space-Login</title>
+    <link rel="stylesheet" href="estilos/styles.css" media="all">
+    <link rel="shortcut icon" href="imagens/jupiter.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="contaienr-itens">
+            <img src="imagens/space.png" alt="logo">
+            <a href="#">Login</a>
+        </div>
+    </header>
+    <main>
+        <section class="formulario">
+            <h1>Faça login agora e entre no espaço profundo</h1>
+            <p>Ou você pode fazer o cadastro logo a baixo!</p>
+        </section>
+        <section class="formulario-down">
+            <form action="forms.php" method="post">
+                <div class="form-top">
+                    <input type="text" name="nome" id="inome" maxlength="34" required placeholder="Nome">
+                    <input type="text" name="sobrenome" id="isobrenome" maxlength="34" required placeholder="Sobrenome">
+                </div>
+                <div class="form-bottom">
+                    <input type="email" name="e-mail" id="ie-mail" maxlength="34" required placeholder="E-mail Completo">
+                    <input type="password" name="senha" id="isenha" maxlength="34" required placeholder="Digite sua senha">
+                </div>
+                <label for="icamp">Escolha uma palavra secreta somente sua</label>
+                <div class="container-choice">
+                    <select name="camp" id="icamp">
+                        <option>Meu cachorro preferido se chama betovem</option>
+                        <option>Meu primeiro carrinho de brinquedo foi de boi</option>
+                        <option>Minha primeira casa foi no brasil</option>
+                        <option>Todo dia é natal na ilha do natal</option>
+                    </select>
+                </div>
+                <input type="submit" value="Criar conta" id="submit-button">
+            </form>
+            <p>
+                <input type="checkbox" name="check" id="icheck">
+                Clique aqui, assim você aceita todos os <span>termos de uso</span>
+            </p>
+        </section>
+    </main>
+</body>
+</html>

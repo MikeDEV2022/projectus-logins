@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Saira+Stencil+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #0E172D;
+    background-image: url('../imagens/new-back-01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "Madimi One", sans-serif;
+    color: white;
+    height: 97vh;
+}
+header{
+    padding: 0 70px;
+}
+main{
+    width: 52%;
+    display: block;
+    margin: auto;
+}
+.contaienr-itens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contaienr-itens img{
+    width: 20vh;
+    cursor: pointer;
+}
+.contaienr-itens a{
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: normal;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.404);
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.contaienr-itens a:hover{
+    transition: .5s;
+    box-shadow: 0px 0px 10px #d64f30;
+    border: 1px solid #d64f30;
+    color: #d64f30;
+}
+.formulario{
+    padding: 20px 0px;
+}
+.formulario h1{
+    font-size: 25px;
+    font-family: "Saira Stencil One", sans-serif;
+    text-shadow: 0px 0px 5px #5248BD;
+    margin-bottom: 5px;
+}
+.formulario p{
+    font-size: 14px;
+}
+.formulario h1, p{
+    text-align: center;
+    line-height: 1.5em;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.form-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.form-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+input{
+    padding: 19px 20px;
+    border-radius: 5px;
+    border: none;
+}
+select{
+    padding: 15px 60px;
+    font-family: "Madimi One", sans-serif;
+    color: rgba(0, 0, 0, 0.541);
+    border-radius: 5px;
+    width: 440px;
+}
+#submit-button{
+    width: 440px;
+    background-color: #d64f30;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.formulario-down p{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 12px;
+    margin-bottom: 140px;
+}
+span{
+    text-decoration: underline;
+}
+#icheck{
+    padding: 10px;
+}
